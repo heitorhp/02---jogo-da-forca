@@ -1,0 +1,65 @@
+.base-forca{
+    display: none;
+    position: absolute;
+    margin-top: 305px ;
+    margin-left: 575px ;
+} 
+.mastro-forca{
+    display: none;
+    position: absolute;
+    margin-top: -50px ;
+    margin-left: 653px ;
+}
+.aste-forca {
+    display: none;
+    position: absolute;
+    margin-top: -50px ;
+    margin-left: 653.67px ;
+}
+.corda{
+    display: none;
+    position: absolute;
+    margin-top: -50px ;
+    margin-left: 828px ;
+}
+
+.cabeca{
+    display: none;
+    position: absolute;
+    margin-top: -2px ;
+    margin-left: 800px ;
+}
+
+.tronco{
+    display: none;
+    position: absolute;
+    margin-top: 60px ;
+    margin-left: 830px ;
+}   
+  
+.bracodireito{
+    display: none;
+    position: absolute;
+    margin-top: 60px ;
+    margin-left: 831px ;
+}
+
+.bracoesquerdo{
+    display: none;
+    position: absolute;
+    margin-top: 60px ;
+    margin-left: 795px ;
+}
+.pernadireita    {
+    display: none;
+    position: absolute;
+    margin-top: 190px ;
+    margin-left: 831px ;
+}
+
+.pernaesquerda{
+    display: none;
+    position: absolute;
+    margin-top: 190px ;
+    margin-left: 795px ;
+}

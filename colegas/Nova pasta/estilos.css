@@ -1,0 +1,392 @@
+corpo{
+   largura: 1440px;
+  altura: 1024px;
+  estilo de lista: nenhum;
+  posição: relativa;
+  alinhar-itens: centro;
+  fundo: #F3F5FC;
+
+}
+
+entrada:foco{
+  contorno: nenhum;
+
+}
+.botaoIniciar {
+exibição: inicial;
+posição: absoluta;
+
+preenchimento: 24px;
+intervalo: 8px;
+
+largura: 317px;
+altura: 105px;
+esquerda: 562px;
+topo: 394px;
+
+
+fundo: #0A3871;
+raio da borda: 24px;
+
+
+família de fontes: 'Inter';
+estilo de fonte: normal;
+peso da fonte: 400;
+tamanho da fonte: 16px;
+altura da linha: 19px;
+alinhar-itens: centro;
+alinhamento de texto: centro;
+cor: #FFFFFF;
+
+flexível: nenhum;
+ordem: 0;
+flex-crescimento: 1;
+
+}
+.botaoCancelar{
+  Mostrar nenhum;
+  posição: absoluta;
+  margem esquerda: 722px;
+  margem superior: 450px;
+  
+direção flexível: coluna;
+alinhar-itens: centro;
+preenchimento: 24px;
+intervalo: 8px;
+
+largura: 332px;
+altura: 67px;
+
+/* Azul escuro/azul escuro-300 */
+
+borda: 1px sólido #0A3871;
+raio da borda: 24px;
+
+/* Dentro do layout automático */
+
+flexível: nenhum;
+ordem: 1;
+cor: #0A3871;
+flex-crescimento: 1;
+família de fontes: 'Inter';
+estilo de fonte: normal;
+peso da fonte: 400;
+tamanho da fonte: 16px;
+altura da linha: 19px;
+alinhamento de texto: centro;
+
+}
+
+.invisivel{
+  Mostrar nenhum;
+}
+
+.botaoSalvarIniciar{
+
+  Mostrar nenhum;
+  posição: absoluta;
+  margem esquerda: 376px;
+  margem superior: 450px;
+  preenchimento: 24px;
+  intervalo: 8px;
+  
+  largura: 332px;
+  altura: 67px;
+  
+  
+  fundo: #0A3871;
+  raio da borda: 24px;
+  
+  direção flexível: coluna;
+  alinhar-itens: centro;
+  
+  família de fontes: 'Inter';
+  estilo de fonte: normal;
+  peso da fonte: 400;
+  tamanho da fonte: 16px;
+  altura da linha: 19px;
+  alinhamento de texto: centro;
+  
+  cor: #FFFFFF;
+ 
+  
+  }
+
+  .botaoNovoJovo{
+
+    Mostrar nenhum;
+    posição: absoluta;
+    margem esquerda: 376px;
+    margem superior: 160px;
+    preenchimento: 24px;
+    intervalo: 8px;
+    
+    largura: 332px;
+    altura: 67px;
+    
+    
+    /* Azul escuro/azul escuro-300 */
+    
+    fundo: #0A3871;
+    raio da borda: 24px;
+    
+    direção flexível: coluna;
+    alinhar-itens: centro;
+    
+    família de fontes: 'Inter';
+    estilo de fonte: normal;
+    peso da fonte: 400;
+    tamanho da fonte: 16px;
+    altura da linha: 19px;
+    alinhamento de texto: centro;
+    
+    /* Branco */
+    
+    cor: #FFFFFF;
+    
+    
+    /* Dentro do layout automático */
+    
+    
+    }
+  
+.botaoDesistir{
+    Mostrar nenhum;
+    posição: absoluta;
+    margem esquerda: 722px;
+    margem superior: 160px;
+      
+    direção flexível: coluna;
+    alinhar-itens: centro;
+    preenchimento: 24px;
+    intervalo: 8px;
+    
+    largura: 332px;
+    altura: 67px;
+    
+    /* Azul escuro/azul escuro-300 */
+    
+    borda: 1px sólido #0A3871;
+    raio da borda: 24px;
+    
+    /* Dentro do layout automático */
+    
+    flexível: nenhum;
+    ordem: 1;
+    cor: #0A3871;
+    flex-crescimento: 1;
+    família de fontes: 'Inter';
+    estilo de fonte: normal;
+    peso da fonte: 400;
+    tamanho da fonte: 16px;
+    altura da linha: 19px;
+    alinhamento de texto: centro;
+    
+    }
+
+#oculto{
+transformação de texto: maiúsculas;
+flutuar: esquerda;
+cor de fundo: #F3F5FC;
+estilo de borda: nenhum;
+cor do acento circunflexo: #F3F5FC;
+margem superior: 40px;
+margem esquerda: 370px;
+espaçamento entre letras: 40px;
+largura: 50%;
+altura: 36px;
+
+família de fontes: 'Inter';
+estilo de fonte: normal;
+peso da fonte: 400;
+tamanho da fonte: 24px;
+altura da linha: 150%;
+/* idêntico à altura da caixa, ou 36px */
+
+alinhamento de texto: centro;
+
+/* Cinza/cinza-400 */
+
+cor: #495057;
+
+
+/* Dentro do layout automático */
+
+flexível: nenhum;
+ordem: 0;
+flex-crescimento: 0;
+
+}
+.botaoAdicionarPalavra{
+
+  preenchimento: .50em 50em;
+  exibição: inicial;
+  posição: absoluta;
+
+ margem superior: 120px;
+
+preenchimento: 24px;
+intervalo: 8px;
+
+largura: 317px;
+altura: 105px;
+esquerda: 562px;
+topo: 394px;
+
+borda: 1px sólido #0A3871;
+raio da borda: 24px;
+
+família de fontes: 'Inter';
+estilo de fonte: normal;
+peso da fonte: 400;
+tamanho da fonte: 16px;
+altura da linha: 19px;
+
+alinhar-itens: centro;
+alinhamento de texto: centro;
+
+
+cor: #0A3871;
+
+
+flexível: nenhum;
+ordem: 0;
+flex-crescimento: 1;
+}
+
+botão: passar {
+  transformar: escala(1,03);
+filtro: brilho(1,2);
+}
+
+botão:ativo {
+/*cor de fundo: #0A3871;*/
+borda: sólido de 5px #000000;
+/*cor: #0A3871;*/
+}
+
+
+rodapé a {
+margem superior: 280px;
+margem esquerda: 25px;
+largura: 100%;
+cor: #121219;;
+decoração de texto: nenhuma;
+posição: absoluta;
+largura: 317px;
+altura: 105px;
+esquerda: 562px;
+topo: 394px;
+
+transição: 500ms;
+}
+
+rodapé a:hover {
+  decoração de texto: sublinhado;
+  cor azul;
+}
+
+::espaço reservado {
+  cor: #0A3871;
+}
+
+
+.avisoDigitacao{
+  Mostrar nenhum;
+margem esquerda: 376px;
+cor de fundo: #F3F5FC;
+estilo de borda: nenhum;
+
+cor da borda: #F3F5FC;
+largura: 413px;
+altura: 48px;
+esquerda: 376px;
+topo: 256px;
+
+família de fontes: 'Inter';
+estilo de fonte: normal;
+peso da fonte: 400;
+tamanho da fonte: 32px;
+altura da linha: 150%;
+cor: #0A3871;
+
+
+}
+
+
+.lateralEsquerda{
+  flutuar: esquerda;
+}
+
+.logotipo{
+  margem superior: 40px;
+  margem esquerda: 84px;
+}
+
+.palavraSecreta{
+  alinhamento de texto: centro;
+  alinhar-itens: centro;
+  margem esquerda:500px;
+  margem superior: 300px;
+
+}
+
+.letraPalavraSecreta{
+
+exibição: inline-flex;
+preenchimento em linha: 30px;
+margem: 0px;
+decoração de texto: sublinhado #0A3871;
+transformação de texto: maiúsculas;
+
+deslocamento de sublinhado de texto: 25px;
+
+família de fontes: 'Inter';
+estilo de fonte: normal;
+peso da fonte: 400;
+tamanho da fonte: 48px;
+altura da linha: 150%;
+
+
+-webkit-touch-callout: nenhum;
+   -webkit-user-select: nenhum;
+   -khtml-user-select: nenhum;
+   -moz-user-select: nenhum;
+   -ms-user-select: nenhum;
+   seleção do usuário: nenhum;
+  
+   espaçamento entre letras: 25px;
+  /*cor: #F3F5FC;*/
+cor: #000000;
+
+}
+
+.letraExpostaPalavraSecreta{
+
+  exibição: inline-flex;
+  preenchimento em linha: 30px;
+  margem: 0px;
+  decoração de texto: sublinhado #0A3871;
+  transformação de texto: maiúsculas;
+  
+  deslocamento de sublinhado de texto: 25px;
+  
+  família de fontes: 'Inter';
+  estilo de fonte: normal;
+  peso da fonte: 400;
+  tamanho da fonte: 48px;
+  altura da linha: 150%;
+  
+  
+  -webkit-touch-callout: nenhum;
+     -webkit-user-select: nenhum;
+     -khtml-user-select: nenhum;
+     -moz-user-select: nenhum;
+     -ms-user-select: nenhum;
+     seleção do usuário: nenhum;
+    
+     espaçamento entre letras: 25px;
+    cor: #0A3871;
+  /*cor: #000000;*/
+  
+  }

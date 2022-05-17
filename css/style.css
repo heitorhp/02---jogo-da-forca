@@ -1,0 +1,135 @@
+body{
+    position: relative;
+    width: 1320px;
+    /*height: 924px;*/
+    background: #F3F5FC;
+}
+
+#bt-adicionar-palavra, #bt-iniciar-jogo{
+    
+    font-family: 'Inter';
+    font-style: normal;
+    /*font-weight: 400;*/
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+    text-align: center;
+}
+
+.bt-iniciar-jogo{    
+    position: absolute;
+    width: 317px;
+    height: 105px;
+    left: 562px;
+    top: 194px;
+    background: #0A3871;
+    border-radius: 24px;
+    color: antiquewhite;
+}
+
+.bt-adicionar-palavra{
+    position: absolute;
+    width: 317px;
+    height: 102px;
+    left: 562px;
+    top: 328px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: blue;
+}
+.linha-letras{
+    /*display: flex;*/
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;    
+    position: absolute;
+    width: 464px;
+    height: 152px;
+    left: 476px;
+    top: 345px;
+}
+p,ul,li,.linha-letras{
+    display: inline-block;
+}
+
+.letras{
+    display: flex;
+    float: left;
+    gap: 38px;    
+    position: absolute;
+    left: 55px;
+    top: -15px;
+}
+
+
+.letras-erradas{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 136px;
+    height: 36px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    border: 0;
+}
+
+.acao{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 24px;
+    position: absolute;
+    width: 688px;
+    height: 67px;
+    left: 400px;
+    top: 450px;
+}
+
+.bt-novo-jogo{
+    /*display: flex;*
+    flex-direction: row;*/
+    align-items: flex-start;
+    /*padding: 24px;*
+    gap: 8px;    */
+    width: 332px;
+    height: 67px;
+    background: #0A3871;
+    border-radius: 24px;
+    /*flex: none;*/
+    order: 0;
+    flex-grow: 1;
+    color: antiquewhite;
+}
+
+.bt-desistir{
+    box-sizing: border-box;
+    /*display: flex;*
+    flex-direction: row;*/
+    align-items: flex-start;
+    /*padding: 24px;*
+    gap: 8px;    */
+    width: 332px;
+    height: 67px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    /*flex: none;*/
+    order: 1;
+    flex-grow: 1;    
+    color: blue;    
+}
+
+footer{
+    margin-top: 550px;
+    margin-left: 300px;  
+    float: left;  
+    width: 910px;
+    height: 118px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 20px;
+    color: #e3700c; 
+}

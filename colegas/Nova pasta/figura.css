@@ -1,0 +1,65 @@
+.base{
+    Mostrar nenhum;
+    posição: absoluta;
+    margem superior: -10px ;
+    margem esquerda: 575px ;
+}
+.astemaior{
+    Mostrar nenhum;
+    posição: absoluta;
+    margem superior: -365px ;
+    margem esquerda: 653px ;
+}
+.astemenor {
+    Mostrar nenhum;
+    posição: absoluta;
+    margem superior: -365px ;
+    margem esquerda: 653,67px ;
+}
+.corda{
+    Mostrar nenhum;
+    posição: absoluta;
+    margem superior: -365px ;
+    margem esquerda: 828px ;
+}
+
+.cabeca{
+    Mostrar nenhum;
+    posição: absoluta;
+    margem superior: -320px ;
+    margem esquerda: 800px ;
+}
+
+.tronco{
+    Mostrar nenhum;
+    posição: absoluta;
+    margem superior: -260px ;
+    margem esquerda: 828px ;
+}   
+  
+.bracodireito{
+    Mostrar nenhum;
+    posição: absoluta;
+    margem superior: -262px ;
+    margem esquerda: 828px ;
+}
+
+.bracoesquerdo{
+    Mostrar nenhum;
+    posição: absoluta;
+    margem superior: -262px ;
+    margem esquerda: 795px ;
+}
+.pernadireita {
+    Mostrar nenhum;
+    posição: absoluta;
+    margem superior: -130px ;
+    margem esquerda: 830px ;
+}
+
+.pernaesquerda{
+    Mostrar nenhum;
+    posição: absoluta;
+    margem superior: -130px ;
+    margem esquerda: 794px ;
+}

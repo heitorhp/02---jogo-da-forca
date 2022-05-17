@@ -1,0 +1,77 @@
+.base-forca{
+    /*display: none;*/
+    position: absolute;
+    margin-top: 305px ;
+    margin-left: 575px ;
+} 
+.mastro-forca{
+    /*display: none;*/
+    position: absolute;
+    margin-top: 10px ;
+    margin-left: 653px ;
+    height: 300px;
+}
+.aste-forca {
+    /*display: none;*/
+    position: absolute;
+    margin-top: 10px ;
+    margin-left: 653.67px ;
+}
+.corda-forca{
+    /*display: none;*/
+    position: absolute;
+    margin-top: 10px ;
+    margin-left: 828px ;
+}
+
+.cabeca-boneco-forca{
+    /*display: none;*/
+    position: absolute;
+    margin-top: 55px ;
+    margin-left: 800px ;
+}
+
+.corpo-boneco-forca{
+    /*display: none;*/
+    position: absolute;
+    margin-top: 118px ;
+    margin-left: 830px ;    
+    height: 100px;
+}   
+  
+.braco-direito-boneco-forca{
+    /*display: none;*/
+    position: absolute;
+    margin-top: 130px ;
+    margin-left: 794px;
+}
+
+.braco-esquerdo-boneco-forca{
+    /*display: none;*/
+    position: absolute;
+    margin-top: 130px ;
+    margin-left: 832px ;
+}
+.perna-esquerda-boneco-forca{
+    /*display: none;*/
+    position: absolute;
+    margin-top: 210px ;
+    margin-left: 831px ;
+}
+
+.perna-direita-boneco-forca{
+    /*display: none;*/
+    position: absolute;
+    margin-top: 210px;
+    margin-left: 795px;
+}
+
+.avisos{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 930px; 
+}
+
+.img-avisos{
+    height: 100px;
+}

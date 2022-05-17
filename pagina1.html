@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Jogo da Forca</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/forca.css">
+    </head>
+    <body>
+
+        <div class="avisos" id="avisos">           
+            <img src="imagens/avisos-1.png" class="img-avisos" id="img-avisos">            
+        </div>
+
+        <div class="forca" id="forca">
+            <img src="imagens/01-base-forca.png" class="base-forca">
+            <img src="imagens/02-mastro-forca.png" class="mastro-forca">
+            <img src="imagens/03-aste-forca.png" class="aste-forca">
+            <img src="imagens/04-corda-forca.png" class="corda-forca">
+            <img src="imagens/05-cabeca-boneco-forca.png" class="cabeca-boneco-forca">
+            <img src="imagens/06-corpo-boneco-forca.png" class="corpo-boneco-forca">
+            <img src="imagens/07-braco-direito-boneco-forca.png" class="braco-direito-boneco-forca">
+            <img src="imagens/08-braco-esquerdo-boneco-forca.png" class="braco-esquerdo-boneco-forca">
+            <img src="imagens/09-perna-direita-boneco-forca.png" class="perna-direita-boneco-forca">
+            <img src="imagens/10-perna-esquerda-boneco-forca.png" class="perna-esquerda-boneco-forca">
+        </div>
+        
+        
+        <div class="linha-letras" id="linha-letras">
+            <div id="letras" class="letras"></div>
+            <div id="base-letras" class="base-letras"></div>
+            <!--<input type="text" class="letras-erradas" id="letras-erradas>">-->
+        </div>
+
+        
+        <div class="acao" id="acao">
+            <a href="pagina1.html">
+                <input type="submit" value="Novo Jogo" class="bt-novo-jogo" id="bt-novo-jogo">
+            </a>
+            <a href="index.html">
+                <input type="submit" value="Desistir" class="bt-desistir" id="bt-desistir">
+            </a>
+        </div>
+        <footer>
+            <p class="copyright">&copy Copyright: em desenvolvimento Heitor Pimentel - heitorhp@gmail.com - 2022</p>
+        </footer>
+        <script src="js/tabuleiro.js"></script>
+    </body>
+</html>
