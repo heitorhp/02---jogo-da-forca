@@ -52,6 +52,13 @@ body{
 p,ul,li,.linha-letras{
     display: inline-block;
 }
+p{
+    text-align: center;
+    
+}
+.letraClass{
+    display:inline-block;
+}
 
 .letras{
     display: flex;

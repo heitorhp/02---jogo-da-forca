@@ -12,27 +12,33 @@ console.log("Palavra sorteada: "+palavraSorteada);
    
     for(var cont = 0; cont < numero; cont++){
 
-       // var ul = document.querySelector("#linha-com-letras");
-        //var liLetras = document.createElement("li");
-       // var liImg = document.createElement("li");
-
         var letrasPalavra = palavraSorteada.split("");
+        var br = document.createElement("br");
+
+        var div = document.querySelector("linha-listras");
+
+        var paragrafo2 = document.createElement("p");
+
         var paragrafo = document.createElement("p");
-        var conteudo = paragrafo.textContent = letrasPalavra[cont];
-        //liLetras.textContent = letrasPalavra[cont];
+        paragrafo.classList.add("letraClass");        
+        paragrafo.textContent = letrasPalavra[cont];
+        document.getElementById("letras").appendChild(paragrafo2);
         document.getElementById("letras").appendChild(paragrafo);
-        
-        var img = document.createElement("img");        
+       
+        var img = document.createElement("img");    
+        img.classList.add("imgClass")    ;
         img.src = "imagens/base-letras.png";
         img.style.height = "2px";
         img.style.margin ="5px";
-        document.getElementById("base-letras").appendChild(img);
+        document.getElementById("letras").appendChild(img);
 
-        //liImg.document.getElementById("linha-com-letras");
-        //ul.appendChild(liLetras);
-       // ul.appendChild(liImg);
+        //div.appendChild(paragrafo);
+        //div.appendChild(img);
+
+        paragrafo2.appendChild(paragrafo);
+        paragrafo2.appendChild(img);
+        console.log(paragrafo);
     }
-    //console.log("botão clicado");
 //});
 
 //trocaImagemAviso(true);
